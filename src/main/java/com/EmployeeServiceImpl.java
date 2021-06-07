@@ -23,8 +23,6 @@ public class EmployeeServiceImpl implements EmployeeService{
 
 	@Override
 	public void updateEmployee(Employee e1) {
-		//elist.forEach(e -> e.setEmpName(e1.getEmpName()));
-		
 		for(Employee e : elist) {
 			if(e.getEmpName() == e1.getEmpName()) {
 				e.setEmpNo(e1.getEmpNo());

@@ -1,16 +1,9 @@
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
 import com.Employee;
 import com.Address;
-import com.EmployeeService;
 import com.EmployeeServiceImpl;
-import com.UseEmployee;
 
 public class TestEmployeeServiceImpl {
 	
@@ -27,11 +20,6 @@ public class TestEmployeeServiceImpl {
 	void testDisplayAllEmployees() {
 		esi.addEmployee(e);
 	
-	}
-	
-	@Test
-	void testCalculateYearlySalary(Employee e1) {
-		
 	}
 
 }
